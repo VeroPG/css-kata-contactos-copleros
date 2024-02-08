@@ -1,0 +1,53 @@
+
+
+body{
+    background-color: rgb(21, 166, 234);
+}
+article{
+    margin: 0;
+    border-bottom: rgb(240, 240, 241);
+    border-bottom-style: solid;
+}
+img{
+    border-radius: 300px;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+address{
+    color: gray;
+}
+
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.container{
+    width: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 1%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.contacto{
+    display: flex;
+   flex-direction: row;
+   flex-wrap:
+   align-items: center;
+   background-color: azure;
+
+}
+.name{
+    font-weight: bold;
+}
+
+.detalles{
+    flex-direction: row;
+}
+
